@@ -22,11 +22,39 @@ function addName() {
   // - https://www.w3schools.com/jsref/prop_node_innertext.asp
 
   let nameElement = document.querySelector('#name');
-  nameElement.innerText = 'See script.js!';
+  nameElement.innerText = 'Julia and Tinley!!!';
+  nameElement.style.color= 'blue';
 }
 
 function addFavoriteThings() {
   console.log('Called addFavoriteThings()');
+
+  let faves = document.querySelector('#favthings');
+  console.log('favesIncoming');
+  console.log(faves);
+  var item = document.createElement("li");
+  item.innerHTML = "Eating";
+  faves.appendChild(item);
+
+  var item = document.createElement('li');
+  item.innerHTML = "Food";
+  faves.appendChild(item);
+
+  var item = document.createElement('li');
+  item.innerHTML = 'Sleeping';
+  faves.appendChild(item);
+
+  var item = document.createElement('li');
+  item.innerHTML = 'Bubble Tea AKA BOBAA';
+  faves.appendChild(item);
+
+  var item = document.createElement('li');
+  item.innerHTML = 'Malena';
+  faves.appendChild(item);
+
+  var item = document.createElement('li');
+  item.innerHTML = 'Cats';
+  faves.appendChild(item);
 
   // 1. Get a reference to <ul id="favthings">
   // 2. Create a few list items representing your favorite things
