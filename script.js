@@ -88,6 +88,8 @@ function changeCodeStatus() {
   // 1. Get a reference to <div id="codestatus">
   // 2. Create image element containing a sweet ol' meme
   // 3. Replace text in codestatus w/ image
+
+  // #codestatus
 }
 
 // Get a reference to the button w/ id="show-info-button"
