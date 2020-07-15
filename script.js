@@ -77,8 +77,8 @@ function replaceImage() {
 
   //document.getElementById('#picture').src="jasmine-baptism.jpg";
   let newImage = document.querySelector('#picture');
-  newImage.src = "jasmine-baptism.jpg"
-  newImage.width = 300
+  newImage.src = "jasmine-baptism.jpg";
+  newImage.width = 300;
 
 }
 
@@ -89,7 +89,9 @@ function changeCodeStatus() {
   // 2. Create image element containing a sweet ol' meme
   // 3. Replace text in codestatus w/ image
 
-  // #codestatus
+  let memeElement = document.querySelector('#codestatus');
+  memeElement.innerHTML = '<img src="https://i.chzbgr.com/full/9340630528/hFC589711/spotify-playlist-songs-about-git"/>';
+
 }
 
 // Get a reference to the button w/ id="show-info-button"
