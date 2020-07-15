@@ -134,6 +134,21 @@ informationForm.addEventListener('submit', function(event) {
 
   // Google things like:
   //   javascript form element get values
+  
+  //document.querySelector("#firstname").innerHTML = document.querySelector("#fname").value;
+  //document.querySelector("#lastname").innerHTML = document.querySelector("#lname").value;
+  //document.querySelector("#chosencar").innerHTML = document.querySelector("#fname").value;
+  
+  //let isHuman = document.querySelector("#humancheck").checked;
+  //let isCoder = document.querySelector("#codercheck").checked;
+  
+  //if(isHuman){
+  //    document.querySelector("#checks").append("This person is a human");
+  //}
+  //if(isCoder){
+  //    document.querySelector("#checks").append("This person is a coder");
+  //}
+  
 
   let fname = document.getElementById('fname').value;
   let lname = document.getElementById('lname').value;
