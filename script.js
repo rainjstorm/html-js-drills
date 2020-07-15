@@ -74,6 +74,12 @@ function replaceImage() {
   // See:
   // - https://www.tutorialrepublic.com/javascript-tutorial/javascript-dom-get-set-attributes.php
   // - https://www.w3schools.com/jsref/met_element_setattribute.asp
+
+  //document.getElementById('#picture').src="jasmine-baptism.jpg";
+  let newImage = document.querySelector('#picture');
+  newImage.src = "jasmine-baptism.jpg"
+  newImage.width = 300
+
 }
 
 function changeCodeStatus() {
